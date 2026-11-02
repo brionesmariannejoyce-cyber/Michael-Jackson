@@ -1,0 +1,100 @@
+*{
+box-sizing:border-box;
+}
+
+#main{
+background-color:rgb(176, 173, 173);
+}
+
+html{
+width:100%;
+height:100%;
+}
+
+.container{
+  border-radius:10px;
+background-color:white;
+margin:10px;
+
+
+}
+
+#title{
+  padding-top:10px;
+background-color:black;
+color:white;
+justify-content:center;
+align-items:center;
+display:flex;
+width:100%;
+min-height:50px;
+border-radius:10px 10px 0 0;
+}
+#title h1::before{
+  content:⚡;
+}
+#title h1{
+  text-shadow:1px -2px 3px red;
+}
+img{
+  display:block;
+
+}
+#image{
+  max-width:100%;
+  height:auto;
+}
+
+#img-div{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:5px;
+border:2px solid rgb(85, 84, 84);
+border-radius:3px;
+}
+#img-caption{
+  text-align:center;
+}
+#tribute-info{
+  display:flex;
+  flex-direction:column;
+
+}
+
+#tribute-info h2{
+  text-align:center;
+
+}
+#tribute-info p{
+  
+text-align:justify;
+text-indent:30px;
+padding:10px;
+}
+.something{
+  width:100%;
+  border:2px solid;
+  background-color: white;
+  padding:10px;
+
+} 
+.something a{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+max-height:400px;
+
+}
+
+a:link{
+color:blue;
+text-decoration: none;
+}
+a:visited{
+  color:purple;
+}
+
+ a:hover{
+color:red;
+}
